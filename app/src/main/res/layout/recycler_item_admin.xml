@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical" android:layout_width="match_parent"
+              android:id="@+id/recycler_item_layout_admin"
+              android:layout_height="wrap_content" android:layout_margin="5dp" android:background="#D2FFF7">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/name_text_recycler_admin" android:layout_margin="5dp" android:background="#D32657EC"
+            android:gravity="center" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/price_text_recycler_admin" android:layout_margin="5dp" android:background="#D32657EC"
+            android:gravity="center" android:textSize="18sp"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/count_text_recycler_admin" android:layout_margin="5dp" android:background="#D32657EC"
+            android:gravity="center" android:textSize="18sp"/>
+</LinearLayout>
